@@ -5,7 +5,22 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 </p>
 
 
-<h5>Moving local file to directory in EC2 instance</h5>
+<h5>Motivation/Goals</h5>
+<p>This project is a basic intro into working with AWS EC2 and S3. The main goal is obviously learn how cloud computing works so this is an exercise in creating and running EC2 instance and executing a python script in the cloud environment. The prime motivation was to see if I can get a cloud environment to run a task and compare it to the time and efficiency of my home laptop; nothing too groundbreaking, I know.</p>
+
+<p>This project also assumes at the very least the user has created an account at AWS and can access the IAM role/dashboard.</p>
+
+<h3></h3>
+
+<h5>Step 1: Create Instance</h5>
+
+<h5>Step 2: Get key pair from AWS</h5>
+
+<h5>Step 3: Connect to Instance</h5>
+
+<h5>Step 4: Run Instance</h5>
+
+<h5>Step ##: Moving local file to directory in EC2 instance</h5>
 <p>Now that the virtual environment (Linux in this case) has been created, we can copy files from our local machine to the EC2 environment! It's rather simple with a single CLI command:</p>
 
 
@@ -24,7 +39,7 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 
 <p>** This will keep the same name of the original file when adding to the EC2 instance environment. **</p>
 
-<h5>Example command:</h5>
+<h6>Example command:</h6>
 <code>scp -i aws/jr-keypair.pem Python_Scripts/csv_2_cmap/csv_to_cmap.py ec2-user@ec2-18-118-162-108.us-east-2.compute.amazonaws.com:/home/ec2-user/python_scripts/</code>
 
 <p>This obviously uses <em>my</em> key pair, local file, user name, and domain address/location</p>
