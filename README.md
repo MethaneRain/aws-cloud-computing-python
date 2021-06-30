@@ -16,19 +16,16 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 
 ---
 
-<h3>Step 2: Get key pair from AWS</h3>
+<h3>Step 2: Get Key Pair from AWS</h3>
 
 ---
 
-<h3>Step 3: Connect to Instance</h3>
+<h3>Step 3: Launch Instance</h3>
 
 ---
 
-<h3>Step 4: Run Instance</h3>
 
----
-
-<h3>Step 5: Moving local file to directory in EC2 instance</h3>
+<h3>Step 4: Moving local file to directory in EC2 instance</h3>
 
 ---
 
@@ -56,11 +53,11 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 <p>This obviously uses <em>my</em> key pair, local file, user name, and domain address/location</p>
 
 
-<h3>Step 5: Moving local file to directory in EC2 instance</h3>
+<h3>Step 5: Connect to Instance</h3>
 
 ---
 
-<p>The example below will <a href="https://www.ssh.com/academy/ssh/command" target="_blank"><code>ssh</code></a> into our instance. Notice the similarity to the way we added a file to the instance.</p>
+<p>The example below will <a href="https://www.ssh.com/academy/ssh/command" target="_blank"><code>ssh</code></a> into our instance. Notice the similarity of the arguments in the way we added a file to the instance.</p>
 
 <code>ssh -i "jr-keypair.pem" ec2-user@ec2-18-118-162-108.us-east-2.compute.amazonaws.com</code>
 
