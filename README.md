@@ -60,10 +60,10 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 
 ---
 
-<p>The example below will <a href="https://www.ssh.com/academy/ssh/command" target="_blank">```ssh```</a> into our instance. Notice the similarity to the way we added a file to the instance.</p>
+<p>The example below will <a href="https://www.ssh.com/academy/ssh/command" target="_blank"><code>ssh</code></a> into our instance. Notice the similarity to the way we added a file to the instance.</p>
 
 <code>ssh -i "jr-keypair.pem" ec2-user@ec2-18-118-162-108.us-east-2.compute.amazonaws.com</code>
 
-<img src="https://methanerain.com/wp-content/uploads/2021/06/ec2_run_instance_cli.png" alt="" />
+<img src="https://methanerain.com/wp-content/uploads/2021/06/ec2_run_instance_cli_2.png" alt="" />
 
 <p></p>
