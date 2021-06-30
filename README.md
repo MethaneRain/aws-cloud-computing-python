@@ -25,7 +25,6 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 <p>** This will keep the same name of the original file when adding to the EC2 instance environment. **</p>
 
 <h5>Example command:</h5>
-<code>scp -i aws/jr-keypair.pem Python_Scripts/csv_2_cmap/csv_to_cmap.py ec2-user@ec2-18-118-162-108.us-east-2.compute.amazonaws.com:/home/ec2-user/python_scripts/
-csv_to_cmap.py</code>
+<code>scp -i aws/jr-keypair.pem Python_Scripts/csv_2_cmap/csv_to_cmap.py ec2-user@ec2-18-118-162-108.us-east-2.compute.amazonaws.com:/home/ec2-user/python_scripts/</code>
 
 <p>This obviously uses <em>my</em> keypair, local file, username, and domain address/location</p>
