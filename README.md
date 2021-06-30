@@ -12,15 +12,18 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 
 <h3></h3>
 
-<h5>Step 1: Create Instance</h5>
+<h3>Step 1: Create Instance</h3>
+---
 
-<h5>Step 2: Get key pair from AWS</h5>
+<h3>Step 2: Get key pair from AWS</h3>
+---
 
-<h5>Step 3: Connect to Instance</h5>
+<h3>Step 3: Connect to Instance</h3>
+---
 
-<h5>Step 4: Run Instance</h5>
-
-<h5>Step ##: Moving local file to directory in EC2 instance</h5>
+<h3>Step 4: Run Instance</h3>
+---
+<h3>Step 5: Moving local file to directory in EC2 instance</h3>
 <p>Now that the virtual environment (Linux in this case) has been created, we can copy files from our local machine to the EC2 environment! It's rather simple with a single CLI command:</p>
 
 
