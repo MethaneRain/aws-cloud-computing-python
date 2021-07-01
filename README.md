@@ -68,14 +68,20 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 
 ---
 
+boto3 - Python API
+
+resource
+
+client
+
 
 ---
 
 Common configuration and security info, so I'm documenting the common ones here. Descriptions are rough and will be updated as I progress, hopefully :/
 
-'ImageId': 'ami-0277b52859bac6f4b',
-'InstanceId': 'i-0da4f7758b48ce959',
-'InstanceType': 't2.micro',
+'ImageId': 'ami-0277b52859bac6f4b'<br><br>
+'InstanceId': 'i-0da4f7758b48ce959'<br><br>
+'InstanceType': 't2.micro'<br><br>
 
 
 Access key:
