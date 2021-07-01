@@ -64,3 +64,43 @@ A small project to learn the basics of working with AWS EC2 environment and S3 b
 <img src="https://methanerain.com/wp-content/uploads/2021/06/ec2_run_instance_cli_2.png" alt="" />
 
 <p></p>
+
+
+---
+
+
+---
+
+Common configuration and security info, so I'm documenting the common ones here. Descriptions are rough and will be updated as I progress, hopefully :/
+
+'ImageId': 'ami-0277b52859bac6f4b',
+'InstanceId': 'i-0da4f7758b48ce959',
+'InstanceType': 't2.micro',
+
+
+Access key:
+--------
+
+used for:
+  ?
+
+reason:
+  ?
+
+Secret key:
+--------
+
+used for:
+  ?
+
+reason:
+  ?
+
+Key pair
+--------
+
+used for:
+  ssh-ing into EC2 instance
+
+reason:
+  security?
